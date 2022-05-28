@@ -1,7 +1,10 @@
 // const { response } = require("express");
 
 async function main() {
-    let response = await fetch("http://localhost:3001/listBooks");
+    //prettier-ignore
+    let response = await fetch("http://localhost:3001/listBooks", {
+        method: 'PATCH'
+    });
     let books = await response.json();
 
     books.forEach(renderBook);

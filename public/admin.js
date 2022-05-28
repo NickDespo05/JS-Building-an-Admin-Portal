@@ -33,8 +33,8 @@ function inputNew(name, text) {
     let stylebtn = document.createElement("button");
     stylebtn.innerHTML = "Save";
     stylebtn.style.position = "relative";
-    stylebtn.style.left = "50vh";
-    stylebtn.style.bottom = "7vh";
+    stylebtn.style.left = "30vh";
+    stylebtn.style.bottom = "4vh";
     name.style.display = "block";
     stylebtn.style.display = "inline";
     document.body.append(textOfInput);
